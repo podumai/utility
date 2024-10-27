@@ -1,9 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(UTILITY VERSION 1.0 LANGUAGES CXX)
 include_directories("include/")
-include_directories(("/home/podumai/bvector/include/"))
 
-find_package(GTest REQUIRED)
+#find_package(GTest REQUIRED)
 
 add_compile_options(
   -Werror
