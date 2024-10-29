@@ -21,7 +21,7 @@ namespace utility
       , second ()
     {}
 
-    pair(const value_type1& fvalue, const value_type2& svalue)
+    pair(value_type1& fvalue, value_type2& svalue)
       : first  (fvalue)
       , second (svalue)
     {}
